@@ -1,0 +1,55 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+  color:white;
+}
+
+header{
+  text-align:center;
+  padding:80px 20px;
+}
+
+h1{
+  font-size:50px;
+}
+
+.buttons a{
+  display:inline-block;
+  margin:10px;
+  padding:12px 25px;
+  background:#3b82f6;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+}
+
+.services{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.cards{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:#1e293b;
+  padding:20px;
+  margin:15px;
+  border-radius:10px;
+  width:250px;
+}
+
+.team{
+  text-align:center;
+  padding:60px 20px;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  background:#020617;
+}

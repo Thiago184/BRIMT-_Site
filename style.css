@@ -1,55 +1,78 @@
 body{
-  margin:0;
-  font-family:Arial;
-  background:#0f172a;
-  color:white;
+margin:0;
+font-family:Arial;
+background:#0b0f1a;
+color:white;
 }
 
-header{
-  text-align:center;
-  padding:80px 20px;
+.hero{
+text-align:center;
+padding:120px 20px;
 }
 
-h1{
-  font-size:50px;
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
 }
 
-.buttons a{
-  display:inline-block;
-  margin:10px;
-  padding:12px 25px;
-  background:#3b82f6;
-  color:white;
-  text-decoration:none;
-  border-radius:8px;
+.hero p{
+color:#a0a0a0;
+max-width:600px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.buttons{
+margin-top:20px;
+}
+
+.btn{
+background:#6366f1;
+padding:14px 28px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+margin:10px;
+display:inline-block;
+}
+
+.btn-outline{
+border:1px solid #6366f1;
+padding:14px 28px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+margin:10px;
+display:inline-block;
 }
 
 .services{
-  padding:60px 20px;
-  text-align:center;
+padding:80px 20px;
+text-align:center;
 }
 
-.cards{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
+.grid{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
 }
 
 .card{
-  background:#1e293b;
-  padding:20px;
-  margin:15px;
-  border-radius:10px;
-  width:250px;
+background:#111827;
+padding:30px;
+border-radius:10px;
+margin:15px;
+width:260px;
 }
 
-.team{
-  text-align:center;
-  padding:60px 20px;
+.about{
+text-align:center;
+padding:80px 20px;
+color:#cfcfcf;
 }
 
 footer{
-  text-align:center;
-  padding:30px;
-  background:#020617;
+text-align:center;
+padding:40px;
+background:#020617;
 }
